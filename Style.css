@@ -1,0 +1,212 @@
+body {
+            font-family: 'Calibri';
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #6800a1;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a0072;
+			text-shadow: 2px 2px #ee7aff;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+			position: static 
+        }
+
+        nav {
+           text-align: center;
+		   text-shadow: 2px 2px #6800a1;
+
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5em 1em;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #9e27ae;
+        }
+		
+		h2{
+		color:black;
+		text-shadow : 2px 2px #ee7aff;
+		font-size:50px;
+        text-align : Center;
+		}
+
+        #banner img {
+            width: 100%;
+            height: 700px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        section {
+            margin: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        #featured-programs {
+            overflow: hidden;
+            text-align: center; /* Center the inline-block elements */
+        }
+		
+		.plan-card		{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .plan-card {
+            border: 1px solid #ccc;
+            border-radius: 16px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: auto;
+            display: inline-block;
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .plan-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .plan-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+        }
+		.recommended-title {
+            font-size: 2.2em;
+            font-weight: bold;
+            color: #28a745;
+        }
+        .plan-price {
+            font-size: 1.4em;
+            margin-top: 10px;
+            color: #6800a1;
+        }
+        .plan-features {
+            margin-top: 15px;
+        }
+        .plan-features ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .plan-features li {
+            margin-bottom: 5px;
+            color: #555;
+        }
+		
+		.subscription-button {
+            background-color: #6800a1;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .subscription-button:hover {
+            background-color: #4a0072;
+        }
+
+        
+        .program-card {
+            display: inline-block; 
+            width: 30%;
+            margin: 20px;
+            transition: transform 0.3s ease;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+
+        .program-card:hover {
+            transform: scale(1.1);
+        }
+		
+		.program-card img {
+            width: 100%; 
+            height: auto; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+
+        .program-details {
+            text-align: center;
+            padding: auto;
+        }
+		
+		.button {
+            border: outset;
+			border-color: #fc6afc;
+            background-color: #6800a1;
+            color: white;
+            padding: 25px 25px;
+            text-align: center;
+            text-decoration: underline ;
+            text-shadow : 1px 1px #ee7aff;
+            display: inline-block;
+            font-size: 28px;
+            margin: 10px 8px;
+            cursor: pointer;
+            border-radius: 256px;
+}
+
+		area {
+         display: none;
+        }
+
+        #schedule, #about-us, #contact, #membership, #special-events, #gallery, #faq {
+            margin-top: 40px;
+        }
+
+        #gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #4a0072;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
