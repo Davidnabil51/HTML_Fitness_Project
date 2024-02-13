@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form - Fitness Gym</title>
     <style>
-        /* Your existing CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('strength_training_image.jpg'); /* Replace 'your-background-image-url.jpg' with the path to your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
 
         /* Header styles */
         header {
@@ -18,29 +25,14 @@
             margin-bottom: 20px; /* Add margin at the bottom to separate header and content */
         }
 
-        nav {
-            text-align: center;
-            text-shadow: 2px 2px #6800a1;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            padding: 0.5em 1em;
-            display: block;
-            transition: background-color 0.3s ease;
-        }
-
-        nav a:hover {
-            background-color: #9e27ae;
+        /* Container styles */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+            padding: 100px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
@@ -109,14 +101,6 @@
     <!-- Header -->
     <header>
         <h1>Fitness Gym Registration</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Registration Form Section -->
