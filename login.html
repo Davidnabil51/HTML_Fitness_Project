@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fitness Gym</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Fitness Gym Login</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Form Section -->
+    <div class="container login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <!-- Login form content here -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login" class="submit-btn">
+        </form>
+        <div id="errorMsg" class="error-msg" style="display: none;">Please fill in all fields.</div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fitness Empire. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
