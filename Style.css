@@ -57,7 +57,7 @@ body {
         }
 
         section {
-            margin: 20px;
+            margin: 10px;
             padding: 10px;
             background-color: #fff;
             border-radius: 8px;
@@ -66,43 +66,49 @@ body {
         }
 
         section:hover {
-            transform: scale(1.02);
+            transform: scale(1.01);
         }
 
         #featured-programs {
             overflow: hidden;
             text-align: center; /* Center the inline-block elements */
         }
-		
-		.plan-card		{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+		#Membership_Plans {
+            overflow: hidden;
+            text-align: center; /* Center the inline-block elements */
         }
+		
+		
         .plan-card {
-            border: 1px solid #ccc;
+			display: inline-block;
+			vertical-align: middle;
+            border: 2px solid #6800a1;
             border-radius: 16px;
             padding: 20px;
             margin: 10px;
             text-align: center;
-            width: auto;
-            display: inline-block;
+			height:300px;
+            width: 400px;
             background-color: #fff;
             transition: transform 0.3s, box-shadow 0.3s;
+			    position: relative;
+
         }
         .plan-card:hover {
             transform: scale(1.05);
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
         .plan-title {
-            font-size: 1.8em;
+            font-size: 2.0em;
             font-weight: bold;
-            color: #333;
+            color: #000;
         }
 		.recommended-title {
             font-size: 2.2em;
             font-weight: bold;
-            color: #28a745;
+            color: #ffd700;
+			text-shadow: 1px 1px #ccad00;
+
         }
         .plan-price {
             font-size: 1.4em;
@@ -110,27 +116,31 @@ body {
             color: #6800a1;
         }
         .plan-features {
-            margin-top: 15px;
+            margin-top: 10px;
         }
         .plan-features ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+            list-style: disc;
+            padding: 10px;
+            margin: 5px;
         }
         .plan-features li {
-            margin-bottom: 5px;
-            color: #555;
+            margin-bottom: 10px;
+            color: #000;
+			text-align: left;
         }
 		
 		.subscription-button {
             background-color: #6800a1;
             color: #fff;
             padding: 10px 20px;
+			font-size: 18px;
             text-decoration: none;
-            display: inline-block;
-            border-radius: 5px;
-            margin-top: 15px;
+            border-radius: 16px;
+            margin-top: 0px;
             transition: background-color 0.3s;
+            position: absolute;
+            top: 290px; 
+            left: 168px;
         }
         .subscription-button:hover {
             background-color: #4a0072;
