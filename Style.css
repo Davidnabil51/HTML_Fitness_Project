@@ -1,4 +1,4 @@
-body {
+        body {
             font-family: 'Calibri';
             margin: 0;
             padding: 0;
@@ -29,6 +29,14 @@ body {
             display: flex;
             justify-content: center;
         }
+		
+		li {
+		
+		font-size: 16px;
+		
+		
+		}
+		
 
         nav a {
             text-decoration: none;
@@ -57,7 +65,7 @@ body {
         }
 
         section {
-            margin: 20px;
+            margin: 10px;
             padding: 10px;
             background-color: #fff;
             border-radius: 8px;
@@ -66,120 +74,10 @@ body {
         }
 
         section:hover {
-            transform: scale(1.02);
+            transform: scale(1.01);
         }
 
-        #featured-programs {
-            overflow: hidden;
-            text-align: center; /* Center the inline-block elements */
-        }
-		
-		.plan-card		{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .plan-card {
-            border: 1px solid #ccc;
-            border-radius: 16px;
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
-            width: auto;
-            display: inline-block;
-            background-color: #fff;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .plan-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-        .plan-title {
-            font-size: 1.8em;
-            font-weight: bold;
-            color: #333;
-        }
-		.recommended-title {
-            font-size: 2.2em;
-            font-weight: bold;
-            color: #28a745;
-        }
-        .plan-price {
-            font-size: 1.4em;
-            margin-top: 10px;
-            color: #6800a1;
-        }
-        .plan-features {
-            margin-top: 15px;
-        }
-        .plan-features ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .plan-features li {
-            margin-bottom: 5px;
-            color: #555;
-        }
-		
-		.subscription-button {
-            background-color: #6800a1;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: inline-block;
-            border-radius: 5px;
-            margin-top: 15px;
-            transition: background-color 0.3s;
-        }
-        .subscription-button:hover {
-            background-color: #4a0072;
-        }
-
-        
-        .program-card {
-            display: inline-block; 
-            width: 30%;
-            margin: 20px;
-            transition: transform 0.3s ease;
-            background-color: #ecf0f1;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} 
-
-
-        .program-card:hover {
-            transform: scale(1.1);
-        }
-		
-		.program-card img {
-            width: 100%; 
-            height: auto; 
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-
-
-        .program-details {
-            text-align: center;
-            padding: auto;
-        }
-		
-		.button {
-            border: outset;
-			border-color: #fc6afc;
-            background-color: #6800a1;
-            color: white;
-            padding: 25px 25px;
-            text-align: center;
-            text-decoration: underline ;
-            text-shadow : 1px 1px #ee7aff;
-            display: inline-block;
-            font-size: 28px;
-            margin: 10px 8px;
-            cursor: pointer;
-            border-radius: 256px;
-}
+      
 
 		area {
          display: none;
