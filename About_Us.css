@@ -1,0 +1,21 @@
+		  @import  url("Style.css");        
+    
+	    .about-section {
+            margin: 10px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+			height:2000px;
+			width: auto;
+			color:#000;
+			text-align: left; 
+			font-size: 28px;
+			font-family: "Times New Roman", Times, serif;
+			line-height: 1.8;
+
+
+        }
+
+     

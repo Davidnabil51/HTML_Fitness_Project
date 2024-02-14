@@ -3,13 +3,7 @@
 		
 		  @import  url("Style.css");        
 
-        #featured-programs {
-            overflow: hidden;
-            text-align: center; /* Center the inline-block elements */
-        }
-		
-		
-        
+       
         .program-card {
             display: inline-block; 
             width: 30%;
@@ -18,6 +12,8 @@
             background-color: #ecf0f1;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			overflow: hidden;
+            text-align: center;
 } 
 
 
