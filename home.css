@@ -3,12 +3,7 @@
 		
 		  @import  url("Style.css");        
 
-        #banner img {
-            width: 100%;
-            height: 700px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
+       
         .program-card {
             display: inline-block; 
             width: 30%;
