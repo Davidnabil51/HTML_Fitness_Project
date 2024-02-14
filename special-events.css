@@ -1,12 +1,18 @@
-body {
-    font-family: Calibri, sans-serif;
+/* Reset styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #6800a1;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
     color: #333;
 }
 
+/* Header styles */
 header {
     background-color: #4a0072;
     color: #fff;
@@ -14,134 +20,140 @@ header {
     padding: 1em 0;
 }
 
-nav {
-    text-align: center;
+header h1 {
+    margin: 0;
+    font-size: 32px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
-nav a {
-    text-decoration: none;
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
     color: #fff;
-    padding: 0.5em 1em;
-    display: block;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-size: 12px;
 }
 
-nav a:hover {
-    background-color: #9e27ae;
-}
-
-h1 {
-    margin: 0;
-}
-
+/* Banner styles */
 #banner {
     position: relative;
+    text-align: center;
+    margin-top: 20px;
 }
 
 #banner img {
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 .header-content {
-color : white;
-font-size: 70px;
     position: absolute;
-    top:45%;
-    left: 40%;
+    top: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-margin-top:20px;
-    padding: 0 20px;
-}
-
-.purple-bg {
-    background-color: #6800a1;
+   
+font-size : 70px;
     color: #fff;
 }
 
-/* Event styling */
+/* Event sections styles */
+#events {
+   background-color: #4a0070;
+    padding: 40px 0;
+}
+
 .event {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-}
-
-.image-left {
-    order: 1; /* Set the image to appear before the paragraph */
-}
-
-.image-right {
-    order: 2; /* Set the image to appear after the paragraph */
+    margin-bottom: 40px;
 }
 
 .event img {
-    width: 40%; /* Adjust image width */
-    border-radius: 8px; /* Optional: Add border-radius to the image */
+    max-width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .paragraph-container {
-    width: 50%; /* Adjust the width of the paragraph container */
+    max-width: 50%;
 }
 
 .paragraph-box {
-    border: 2px solid #fff; /* Border style */
-    padding: 20px; /* Padding inside the box */
-    border-radius: 8px; /* Optional: Add border-radius to the paragraph box */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.paragraph-box p {
-    margin: 0; /* Remove default margin */
-    font-size: 24px; /* Adjust paragraph font size */
+/* Exclusive classes section styles */
+#exclusive-classes {
+    text-align: center;
+    padding: 40px 0;
 }
-
-
-.middle {
+.middle{
+    font-size: 54px;
+ border-top: 2px solid #4a0072;
+ border-bottom: 2px solid #4a0072;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
+.exclusive-classes-title {
+    font-size: 84px;
+    border-bottom: 2px solid #4a0072;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
 .program-card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 40%; 
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
     margin-bottom: 20px;
 }
 
+.program-card img {
+    width: 100%;
+    border-radius: 20px 8px 0 0;
+}
+
 .program-details {
-    width: 45%;
+    padding: 20px;
 }
 
-button {
-    background-color: #6800a1;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.program-details p {
+    margin-bottom: 50px;
+    font-size: 39px; 
 }
 
-button:hover {
+.program-details button {
     background-color: #4a0072;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 28px;
+    margin-top: 20px;
 }
 
-.full-width {
-    width: 40%;
+.program-details button:hover {
+    background-color: #6800a1;
 }
 
+/* Footer styles */
 footer {
     background-color: #4a0072;
     color: #fff;
