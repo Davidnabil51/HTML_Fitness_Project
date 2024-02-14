@@ -1,0 +1,13 @@
+		  @import  url("Style.css");        
+
+        .cardio-blast {
+            display: inline-block; 
+            width: 100%;
+            margin: 20px;
+            transition: transform 0.3s ease;
+            background-color: #ecf0f1;
+            border-radius: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			overflow: hidden;
+            text-align: center;
+        } 
