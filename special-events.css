@@ -77,19 +77,22 @@ font-size : 70px;
 }
 
 .event img {
-    max-width: 40%;
+    max-width: 100%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .paragraph-container {
-    max-width: 50%;
+    max-width: 100%;
+font-size : 30px;
+text-align :center;
 }
 
 .paragraph-box {
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px;
+margin: 80px;
+    border-radius: 60px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
