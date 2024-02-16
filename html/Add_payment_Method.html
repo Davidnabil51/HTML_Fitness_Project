@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Empire</title>
+	<link rel="icon" type="image/x-icon" href="dumbbell_icon_image.jpg">
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+ 
+    <!-- Header -->
+    <header>
+	    
+        <h1 id="top" style="margin: 0;font-size:70px;">Fitness Empire</h1>
+        <nav>
+            <ul>                            
+                <li><a style ="font-size:25px" href="home.html">Home</a></li>
+                <li><a style ="font-size:25px" href="home.html #featured-programs">Programs</a></li>
+                <li><a style ="font-size:25px" href="#schedule">Schedule</a></li>
+                <li><a style ="font-size:25px" href="About_Us.html">About Us</a></li>
+                <li><a style ="font-size:25px" href="#contact">Contact</a></li>
+			    <li><a style ="font-size:25px" href="login.html">Sign In</a></li>
+			    <li><a style ="font-size:25px" href="register.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Registration Form Section -->
+    <div class="container register-container">
+        <h2>Add A Payment Method</h2>
+        <form action="#">
+		
+            <label for="mobile">Mobile Phone:</label>
+            <input type="text" id="mobile" name="mobile" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="paymentMethod">Payment Method:</label>
+            <select autofocus=	"autofocus" id="paymentMethod" name="paymentMethod" required>
+                <option value="">Select</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+
+            <label for="expiryMonth">Card Expiry Month:</label>
+            <input type="text" id="expiryMonth" name="expiryMonth" placeholder="MM" required>
+
+            <label for="expiryYear">Card Expiry Year:</label>
+            <input type="text" id="expiryYear" name="expiryYear" placeholder="YYYY" required>
+
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fitness Empire. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
