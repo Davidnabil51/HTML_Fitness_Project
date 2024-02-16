@@ -42,7 +42,7 @@ font-size : 70px;
 
 /* Event sections styles */
 #events {
-    background-image: url('../imgs/bikes.png');
+    background-image: url('../imgs/Dumbles.jpg');
 
     background-size: cover; 
     background-position: center;
@@ -57,10 +57,10 @@ font-size : 70px;
 }
 
 .event img {
-    max-width: 100%;
+    max-width: 40%;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-margin :100px;
+margin :50px;
 }
 
 .paragraph-container {
