@@ -1,7 +1,8 @@
 		  @import  url("Style.css");        
     
 	    .about-section{
-			margin: 10px;
+			margin: 0px;
+bottom :0;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;

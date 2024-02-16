@@ -1,0 +1,52 @@
+      header {
+    background-image: url('../imgs/bikes.png');
+    background-size: cover; 
+    background-position: center;
+
+			text-shadow: 2px 2px #ee7aff;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+			position: static ;
+        }
+
+        nav {
+           text-align: center;
+		   text-shadow: 2px 2px #6800a1;
+
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+		
+		li {
+		
+		font-size: 16px;
+		
+		
+		}
+		
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5em 1em;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #9e27ae;
+        }
+		
+		h2{
+		color:black;
+		text-shadow : 2px 2px #ee7aff;
+		font-size:50px;
+        text-align : Center;
+		}
