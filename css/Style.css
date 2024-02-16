@@ -112,12 +112,13 @@
             margin-bottom: 20px;
         }
 
-        footer {
-            background-color: #4a0072;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            position: static;
-            bottom: 0;
-            width: 100%;
-        }
+footer {
+    background-color: #4a0072;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+
