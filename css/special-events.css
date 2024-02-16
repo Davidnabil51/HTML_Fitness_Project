@@ -40,7 +40,7 @@ font-size : 70px;
 
 /* Event sections styles */
 #events {
-    background-image: url('bikes.png');
+    background-image: url('../imgs/bikes.png');
 
     background-size: cover; 
     background-position: center;
@@ -77,7 +77,7 @@ margin: 100px;
 
 /* Exclusive classes section styles */
 #exclusive-classes {
-    background-image: url('Dumbles.jpg');
+    background-image: url('../imgs/Dumbles.jpg');
     background-size: cover; 
     background-position: center;
 
