@@ -57,7 +57,7 @@ font-size : 70px;
 }
 
 .event img {
-    max-width: 40%;
+    max-width: 50%;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 margin :50px;
@@ -73,7 +73,7 @@ text-align :center;
     background-color: #fff;
     padding: 20px;
 margin: 100px;
-    border-radius: 60px;
+    border-radius: 70px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
