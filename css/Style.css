@@ -3,9 +3,10 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: #6800a1;
+    background-image: url('../imgs/bikes.png');
+    background-size: cover; 
+    background-position: center;
             color: #333;
-position: static;
         }
 
         header {
