@@ -1,0 +1,7 @@
+.container-fluid {
+    padding: 0; /* Remove padding to extend the carousel to the edges */
+}
+
+.carousel-inner .item img {
+    width: 100%; /* Ensure the images fill the entire width */
+}
