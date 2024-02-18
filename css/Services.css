@@ -6,12 +6,11 @@
     
 * {
  
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
@@ -19,7 +18,6 @@ body {
 }
 
 
-/* Banner styles */
 #banner {
     position: relative;
     text-align: center;
