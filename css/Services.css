@@ -31,14 +31,10 @@ body {
     height: 80%;
 }
 
-.header-content {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+header {
+padding-bottom: 150px;
    
-font-size : 70px;
-    color: #fff;
+
 }
 
 /* Event sections styles */
