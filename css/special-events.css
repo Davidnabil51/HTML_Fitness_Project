@@ -9,11 +9,6 @@
 }
 
 /* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
-    color: #333;
-}
 
 
 /* Banner styles */
@@ -87,12 +82,13 @@ text-align :center;
 }
 .middle{
     font-size: 54px;
- border-top: 5px solid #4a0072;
- border-bottom: 5px solid #4a0072;
+ border-top: 5px solid #ffffff;
+ border-bottom: 5px solid #ffffff;
     margin-bottom: 50px;
 margin-top:50px;
     padding-bottom: 10px;
     text-align: center;
+    color: #fff;
 }
 
 .exclusive-classes-title {

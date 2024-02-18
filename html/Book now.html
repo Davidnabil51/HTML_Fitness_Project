@@ -44,42 +44,26 @@
         <h1 id="top" style="margin: 0;font-size:70px;">Fitness Empire</h1>
         <nav>
             <ul>                            
-                <li><a style ="font-size:25px" href="home.html">Home</a></li>
-                <li><a style ="font-size:25px" href="home.html #featured-programs">Programs</a></li>
-                <li><a style ="font-size:25px" href="#schedule">Schedule</a></li>
-                <li><a style ="font-size:25px" href="About_Us.html">About Us</a></li>
-                <li><a style ="font-size:25px" href="#contact">Contact</a></li>
-			    <li><a style ="font-size:25px" href="login.html">Sign In</a></li>
-			    <li><a style ="font-size:25px" href="register.html">Sign Up</a></li>
+                <li><a style ="font-size:25px" href="../index.html">Home</a></li>
+                <li><a style ="font-size:25px" href="../index.html #featured-programs">Programs</a></li>
+                <li><a style ="font-size:25px" href="../index.html #schedule">Schedule</a></li>
+                <li><a style ="font-size:25px" href="../html/About_Us.html">About Us</a></li>
+                <li><a style ="font-size:25px" href="../index.html #contact">Contact</a></li>
+			    <li><a style ="font-size:25px" href="../html/login.html">Sign In</a></li>
+			    <li><a style ="font-size:25px" href="../html/register.html">Sign Up</a></li>
             </ul>
         </nav>
 
     </header>
 
-    <!-- Book Now Form Section -->
     <div class="container register-container">
         <h2>Book Now</h2>
-        <form action="Add_payment_Method.html"> <!-- Update the action to the payment page -->
-            <!-- Form content -->
+        <form action="../html/Add_payment_Method.html">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="Phone Number">Phone Number:</label>
+            <input type="Phone Number" id="Phone Number" name="Phone Number" required pattern="[0-9]+" title="Please enter only numbers">
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <label for="program">Choose a Program:</label>
-            <select id="program" name="program" required>
-                <option value="">Select</option>
-                <option value="Cardio Blast">Cardio Blast ($10)</option>
-                <option value="Strength Training">Strength Training ($11)</option>
-                <option value="Yoga">Yoga ($12)</option>
-                <option value="Lose Fat Gain Muscle">Lose Fat Gain Muscle ($13)</option>
-                <option value="Home Workout For Women">Home Workout For Women ($14)</option>
-                <option value="Home Workout For Men">Home Workout For Men ($15)</option>
-            </select>
-
-     <br>
+            <br>
 
             <label for="hours">Choose Available Hours:</label>
             <select id="hours" name="hours" required>

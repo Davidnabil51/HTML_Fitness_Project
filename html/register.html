@@ -16,13 +16,13 @@
         <h1 id="top" style="margin: 0;font-size:70px;">Fitness Empire</h1>
         <nav>
             <ul>                            
-                <li><a style ="font-size:25px" href="home.html">Home</a></li>
-                <li><a style ="font-size:25px" href="home.html #featured-programs">Programs</a></li>
-                <li><a style ="font-size:25px" href="#schedule">Schedule</a></li>
-                <li><a style ="font-size:25px" href="About_Us.html">About Us</a></li>
-                <li><a style ="font-size:25px" href="#contact">Contact</a></li>
-			    <li><a style ="font-size:25px" href="login.html">Sign In</a></li>
-			    <li><a style ="font-size:25px" href="register.html">Sign Up</a></li>
+                <li><a style ="font-size:25px" href="../index.html">Home</a></li>
+                <li><a style ="font-size:25px" href="../index.html #featured-programs">Programs</a></li>
+                <li><a style ="font-size:25px" href="../index.html #schedule">Schedule</a></li>
+                <li><a style ="font-size:25px" href="../html/About_Us.html">About Us</a></li>
+                <li><a style ="font-size:25px" href="../index.html #contact">Contact</a></li>
+			    <li><a style ="font-size:25px" href="../html/login.html">Sign In</a></li>
+			    <li><a style ="font-size:25px" href="../html/register.html">Sign Up</a></li>
             </ul>
         </nav>
 
@@ -34,10 +34,10 @@
         <form action="#">
             <!-- Registration form content here -->
             <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" required>
-
+            <input type="text" id="firstName" name="firstName" required pattern="[A-Za-z]+" title="Please enter only letters">
+            
             <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required>
+            <input type="text" id="lastName" name="lastName" required pattern="[A-Za-z]+" title="Please enter only letters">
 
             <label for="dob">Date of Birth:</label>
             <input type="date" id="dob" name="dob" required>
@@ -59,10 +59,10 @@
             </select>
 
             <label for="job">Job:</label>
-            <input type="text" id="job" name="job">
+            <input type="text" id="job" name="job" pattern="[A-Za-z]+" title="Please enter only letters">
 
             <label for="mobile">Mobile Phone:</label>
-            <input type="text" id="mobile" name="mobile" required>
+            <input type="text" id="mobile" name="mobile" required pattern="[0-9]+" title="Please enter only numbers">
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
